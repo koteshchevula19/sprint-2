@@ -1,0 +1,208 @@
+/*   Home.html  */
+.navbar {
+    background-color: #8fbc8f;
+    height: 70px;
+     
+  }
+
+#image-logo{
+    width: 70px;
+    height: 60px;
+}
+.jumbotron-fluid {
+    background-color: white;
+    
+}
+.container-fluid > img{
+    width: 100%;
+    margin-top: -50px;
+}
+.home-header {
+    font-style: italic;
+    position: absolute;
+    margin-left: 270px;
+    color: white;
+    margin-top: 90px;
+ 
+  }
+ 
+  .home-para {
+    font-style: oblique;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 130px;
+    margin-right: 80px;
+    color: white;
+    font-size: smaller;
+ 
+  }
+#corouselitem{
+    margin-top: -85px;
+}
+.down2footer{
+    color:  #8fbc8f;
+}
+#common-footer-home{
+    margin-top: -85px;
+}
+
+/*  About Us    */
+
+#about_us_fc_row {
+ 
+    margin-left: 0px;
+  }
+ 
+  #about_us_storeloc {
+    position: absolute;
+    left: 100px;
+    top: 180px;
+    color: white;
+    border: 3px solid white;
+ 
+  }
+ 
+  #about_us_storefind {
+ 
+    position: absolute;
+    top: 281px;
+    left: 100px;
+    color: white;
+  }
+ 
+  #about_us_manfac {
+    position: absolute;
+    left: 90px;
+    top: 180px;
+    color: white;
+    border: 3px solid white;
+ 
+  }
+ 
+  #about_us_readm1 {
+ 
+    position: absolute;
+    top: 278px;
+    left: 100px;
+    color: white;
+  }
+ 
+  #about_us_env {
+    position: absolute;
+    left: 35px;
+    top: 180px;
+    color: white;
+    border: 3px solid white;
+ 
+ 
+  }
+ 
+  #about_us_readm2 {
+ 
+    position: absolute;
+    top: 278px;
+    left: 100px;
+    color: white;
+  }
+ 
+  #aboutus_cf {
+    border: 2px solid none;
+  }
+ 
+  #aboutus_cf_row {
+ 
+    margin-left: 15px;
+ 
+  }
+  #aboutus_cf_2{
+    margin-left: 15px;
+  }
+ 
+  #headerborder {
+ 
+    border: 2px ridge black;
+    width: fit-content;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+ 
+  }
+ 
+  #aboutus_cf-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: seagreen;
+    position: absolute;
+    bottom: 150px;
+ 
+  }
+
+  #aboutus_cf_col-3 {
+    padding-right: 40px;
+ 
+ 
+  }
+
+  #aboutus_cf_col-2 {
+ 
+    padding-left: 14px;
+ 
+  }
+ 
+  #aboutus_cf_col-1 {
+ 
+    padding-left: 14px;
+ 
+ 
+  }
+  
+  #aboutus_cf-text-2 {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: seagreen;
+    position: absolute;
+    bottom: 150px;
+    margin-left: 25px;
+  }
+  #headerborder-2 {
+ 
+    border: 2px ridge black;
+    width: fit-content;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+  #aboutus_cf-text-3 {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: seagreen;
+    position: absolute;
+    bottom: 60px;
+    margin-left: 25px;
+ 
+ 
+  }
+ 
+ #about_us_img-1 {
+    margin-left: 30px;
+  }
+ 
+  #about_us_img-2 {
+    margin-left: 15px;
+  }
+ 
+  /* #about_us_img-3 {
+    margin-right: 33px;
+  } */  
+ 
+  #headerborder-3 {
+ 
+    border: 2px ridge black;
+    width: fit-content;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+ 
+  }
+ 
+ 
+ 
