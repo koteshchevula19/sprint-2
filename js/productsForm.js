@@ -3,33 +3,31 @@
 const productsController = new ProductsController(0);
 
 // Select the New Product Form
-const newProductForm = document.querySelector('#newProductForm');
+const shoeProductForm = document.querySelector('#shoeProductForm');
 
 // Add an 'onsubmit' event listener
-newProductForm.addEventListener('submit', (event) => {
+shoeProductForm.addEventListener('submit', (event) => {
     // Prevent default action
-    event.preventDefault();
+    event.preventDefault(); //This can be useful if you want to perform some validation or processing before submitting the form to the server or handling the form submission entirely through JavaScript, without a page reload.
 
     // Select the inputs
-    const newProductName = document.querySelector('#newProductName');
-    const newProductDescription = document.querySelector('#newProductDescription');
-    const newProductImageUrl = document.querySelector('#newProductImageUrl');    
+    const shoeProductName = document.querySelector('#shoeProductName');
+    const shoeProductDescription = document.querySelector('#shoeProductDescription');
+    const shoeProductImageUrl = document.querySelector('#shoeProductImageUrl');
 
     // Get the values of the inputs
-    const name = newProductName.value;
-    const description = newProductDescription.value;
-    const imageUrl = newProductImageUrl.value;
+    const name = shoeProductName.value;
+    const description = shoeProductDescription.value;
+    const imageUrl = shoeProductImageUrl.value;
 
-    /*
-        Validation code here
-    */
+  
 
     // Add the Product to the ProductsController
     productsController.addProduct(name, description, imageUrl);
 
     // Clear the form
-    newProductName.value = '';
-    newProductDescription.value = '';
-    newProductImageUrl.value='';
-      
+    shoeProductName.value = '';
+    shoeProductDescription.value = '';
+    shoeProductImageUrl.value = '';
+
 });
